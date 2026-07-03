@@ -1,0 +1,44 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Python training files
+# ==========================
+datasets/
+navigation_dataset/
+runs/
+backup_files/
+MiDaS/
+
+# ==========================
+# Android
+# ==========================
+Android/.gradle/
+Android/build/
+Android/app/build/
+Android/local.properties
+Android/captures/
+
+# IntelliJ / Android Studio
+Android/.idea/
+*.iml
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Environment variables
+# ==========================
+.env

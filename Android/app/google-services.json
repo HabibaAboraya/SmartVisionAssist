@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "755413323687",
+    "project_id": "smartvisionassist-43bf6",
+    "storage_bucket": "smartvisionassist-43bf6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755413323687:android:df7dd1b4abdb8ce6387082",
+        "android_client_info": {
+          "package_name": "com.example.smartvisionassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755413323687-9mmc3odt5965vmqf8tn3c83drp392jbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartvisionassist",
+            "certificate_hash": "972b3140a6cb0a96960cd99f882fa503a93cd11b"
+          }
+        },
+        {
+          "client_id": "755413323687-47v2ugo7tg5q1ssmlad3jgnp7h9ap5f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJczy34nRQKsRgG5M0PHaLfpAJfiGriEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755413323687-47v2ugo7tg5q1ssmlad3jgnp7h9ap5f3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

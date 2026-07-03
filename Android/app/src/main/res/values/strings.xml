@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- APP -->
+    <string name="app_name">SmartVisionAssist</string>
+
+    <!-- GOOGLE -->
+    <string name="default_web_client_id">755413323687-47v2ugo7tg5q1ssmlad3jgnp7h9ap5f3.apps.googleusercontent.com</string>
+
+    <!-- FACEBOOK -->
+    <string name="facebook_app_id">913728278370674</string>
+    <string name="facebook_client_token">84aa55f0b7a1ebdd68f60d4c5e49b1e0</string>
+    <string name="facebook_login_protocol_scheme">fb913728278370674</string>
+
+</resources>

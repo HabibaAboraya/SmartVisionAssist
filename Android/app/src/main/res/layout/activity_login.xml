@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F6FFFB">
+
+    <!-- LOGO -->
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="16dp" />
+
+    <!-- TITLE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/logo_green"
+        android:layout_marginBottom="20dp" />
+
+    <!-- EMAIL -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_button_outline"
+        android:padding="14dp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- PASSWORD -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_button_outline"
+        android:padding="14dp"
+        android:layout_marginBottom="18dp" />
+
+    <!-- SIGN IN BUTTON -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="20dp" />
+
+    <!-- OR -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="──────── OR ────────"
+        android:textColor="#888"
+        android:textSize="13sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- SOCIAL ICONS -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+
+        <!-- GOOGLE -->
+        <ImageView
+            android:id="@+id/btnGoogle"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_google"
+            android:background="@drawable/icon_circle_bg"
+            android:padding="12dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- FACEBOOK -->
+        <ImageView
+            android:id="@+id/btnFacebook"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_facebook"
+            android:background="@drawable/icon_circle_bg"
+            android:padding="12dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <!-- DON'T HAVE ACCOUNT -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textColor="#666"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- CREATE ACCOUNT BUTTON -->
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="@color/logo_green"
+        android:background="@drawable/rounded_button_outline" />
+
+</LinearLayout>
